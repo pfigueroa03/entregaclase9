@@ -5,10 +5,10 @@ function buscarJuego() {
     
     for (i = 0; i < x.length; i++) { 
         if (!x[i].innerHTML.toLowerCase().includes(game)) {
-            x[i].style.display="none";
+            x[i].style.display = "none";
         }
         else {
-            x[i].style.display="";                 
+            x[i].style.display = "";                 
         }
     }
 }
