@@ -130,11 +130,11 @@
                                         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="card-body">
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                                    <input type="checkbox" class="custom-control-input filterSony" onclick="filtroSony()" id="customCheck6">
                                                     <label class="custom-control-label" for="customCheck6">Sony</label>
                                                 </div>
                                                 <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                                    <input type="checkbox" class="custom-control-input filterCheck" onclick="filtroXbox()" id="customCheck7">
                                                     <label class="custom-control-label" for="customCheck7">Microsoft</label>
                                                 </div>
                                             </div>
@@ -187,7 +187,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button type="button" class="btn btn-primary p-1">Aplicar</button>
+                                <button type="button" class="btn btn-primary p-1" >Aplicar</button>
                             </div>
                         </div>
                     </div>
@@ -197,38 +197,37 @@
                     <div class="container">
                         <form class="form-inline d-flex justify-content-end my-2 my-lg-3">
                             <input id="buscador" class="form-control mr-sm-2" onkeyup="buscarJuego()" type="text" placeholder="Busqueda por nombre" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                         </form>
                         <div class="row games_page">
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content playxbox">
                                 <img src="./assets/img/slider/eldenring.png" alt="Elden Ring" class="img-thumbnail games_image play_xbox_game" width="250" height="auto">
                                 <p class="m-2 ">Elden Ring</p>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content playxbox">
                                 <img src="./assets/img/slider/fc6.png" alt="Far Cry 6" class="img-thumbnail games_image play_xbox_game" width="250" height="auto">
                                 <p class="m-2">Far Cry 6</p>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content onlyxbox">
                                 <img src="./assets/img/slider/Forza-Horizon-5-PiviGames.jpg" alt="Forza Horizon 5" class="img-thumbnail games_image xbox_game" width="250" height="auto">
                                 <p class="m-2">Forza Horizon 5</p>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content playxbox">
                                 <img src="./assets/img/slider/re8.png" alt="Resident Evil 8" class="img-thumbnail games_image play_xbox_game" width="250" height="auto">
                                 <p class="m-2">Resident Village</p>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content playxbox">
                                 <img src="./assets/img/slider/tombrider.jpg" alt="Tomb Rider" class="img-thumbnail games_image play_xbox_game" width="250" height="auto">
                                 <p class="m-2">Tomb Rider</p>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content onlyplay">
                                 <img src="./assets/img/slider/bloodborne.jpeg" alt="Bloodborne" class="img-thumbnail games_image play_game" width="250" height="auto">
                                 <p class="m-2">Bloodborne</p>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content playxbox">
                                 <img src="./assets/img/slider/liesofp.jpg" alt="Lies of P" class="img-thumbnail games_image play_xbox_game" width="250" height="auto">
                                 <p class="m-2">Lies of P</p>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content">
+                            <div class="col-12 col-md-6 col-lg-4 col-xl-3 game_content onlyplay">
                                 <img src="./assets/img/slider/FFXVI.jpg" alt="FFXVI" class="img-thumbnail games_image play_game" width="250" height="auto">
                                 <p class="m-2">Final Fantasy XVI</p>
                             </div>
